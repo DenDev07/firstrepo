@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="author" content="Dennis Quansah">
+      <meta name="description" content="This page is about a business called The Little Cafe">
+      <title>The Little Cafe</title> 
+      <link rel="icon" href="beanlogo.jpg" type="image/x-icon">
+      <link rel="stylesheet" href="cafe.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+            
+            <nav aria-label="primary-navigation">
+              <ul>
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="index.html#aboutTLC">About TLC</a>
+                </li>
+                <li>
+                  <a href="index.html#menu">Our Menu</a>
+                </li>
+                <li>
+                  <a href="cafehours.html">Cafe Hours</a>
+                </li>
+              </ul>
+            </nav>
+            <img src="img/coffeeandpot.jpg" alt="coffee pot and a cup of dark coffee" width="400" height="300">
+          <figure>
+            <figcaption>A cup of hot coffee</figcaption>
+          </figure>
+      </header>
+       <hr>
+       <main>
+       <section>
+      <h2>Contact Form</h2>
+      <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+        <legend>Send Us A Message</legend>
+
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="your name" required>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="your email" required>
+        </p>
+        <p>
+        <label for="message">Your Message:</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your messsage here"></textarea>
+    </p>
+    </fieldset>
+    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Send</button>
+    <button type="reset">Reset</button>
+      </form>
+    </section>
+  </main>
+    <section>
+        <h2>Our Location</h2>
+        <address>House No.26, Nii Otsiame Akushey Street<br>
+        Chantan - Achimota, Ghana<br><br>
+        Phone:<a href="tel:+233201701798">020-170-1798</a></address>
+    </section>
+<p><a href="#">Back to Top</a></p>
+       <footer>
+        <p>Copyright &copy;Dennis Quansah</p>
+    </footer>
+ </body>
+</html>

@@ -1,0 +1,28 @@
+html {
+    font-size: 22px;
+}
+
+body {
+  background-color: whitesmoke;
+  color: #333;
+}
+
+a {
+  color: blue
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover, a:active {
+  color: darkslategrey;
+}
+
+table, tr, th, td, caption {
+  border: 1px solid black;
+  font-family: 'Courier New', Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
